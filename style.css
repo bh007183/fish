@@ -4,3 +4,25 @@ p {
 body {
     background-color: lime;
 }
+.outerrim {
+    position: relative;
+    height: 300px;
+    width: 200px;
+    background-color: purple;
+    
+ }
+.inner {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: salmon;
+    bottom: left;
+
+}
+.inner img {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
